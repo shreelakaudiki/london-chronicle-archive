@@ -29,36 +29,58 @@
         </p>
     </section>
 
-    <section class="years">
 
-        <h2>Browse by Year</h2>
+    <section class="search-section">
 
-        <div class="year-grid">
-            <a href="#">1900–1910</a>
+        <h2>Search the Archive</h2>
 
-            <a href="article-1911.html">1911</a>
+        <p>
+            Enter a year to search available records.
+        </p>
 
-            <a href="#">1912–1920</a>
+        <div class="search-box">
 
-            <a href="#">1921–1930</a>
+            <input
+                type="number"
+                id="yearInput"
+                placeholder="e.g. 1911"
+                min="1800"
+                max="1950"
+            >
+
+            <button onclick="searchArchive()">
+                SEARCH
+            </button>
+
         </div>
+
+        <div id="results"></div>
 
     </section>
 
+
     <section class="archive-note">
+
         <h3>Archive Notice</h3>
+
         <p>
-            Some records remain incomplete due to damage,
-            loss, or restricted access to private collections.
+            The digital archive is incomplete. Some records
+            have been damaged, lost, or remain unavailable
+            due to gaps in the original collection.
         </p>
+
     </section>
 
 </main>
+
 
 <footer>
     <p>The London Chronicle Historical Archive</p>
     <p>Digitisation Project · Established 2008</p>
 </footer>
+
+
+<script src="search.js"></script>
 
 </body>
 </html>
