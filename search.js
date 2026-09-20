@@ -138,13 +138,15 @@ function searchArchive() {
                     ${record.date}
                 </p>
 
-                <h4>
-                    ${
-                        record.link === "#"
-                        ? record.title
-                        : `<a href="${record.link}">${record.title}</a>`
-                    }
-                </h4>
+            <h4
+    ${
+        record.link !== "#"
+        ? `onclick="window.location.href='${record.link}'" class="clickable-record"`
+        : ""
+    }
+>
+    ${record.title}
+</h4>
 
             </div>
         `;
