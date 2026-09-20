@@ -226,3 +226,6 @@ footer {
     color: #7b3028;
     font-style: italic;
 }
+.clickable-record {
+    cursor: pointer;
+}
