@@ -130,3 +130,99 @@ footer {
     margin-top: 70px;
     font-size: 13px;
 }
+.search-section {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.search-section h2 {
+    font-size: 28px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.search-box input {
+    width: 220px;
+    padding: 13px;
+    border: 1px solid #a99d8b;
+    background: #faf7ef;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 13px 25px;
+    border: 1px solid #6f604d;
+    background: #2f2a24;
+    color: #f2eee5;
+    font-family: Georgia, "Times New Roman", serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.search-box button:hover {
+    background: #51483d;
+}
+
+#results {
+    max-width: 750px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#results h3 {
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.record {
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    background: #e7e0d3;
+    border-left: 4px solid #8b7355;
+}
+
+.record-date {
+    margin: 0 0 7px;
+    font-size: 14px !important;
+    color: #665d52;
+    font-style: italic;
+}
+
+.record h4 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.record a {
+    color: #292621;
+    text-decoration: none;
+}
+
+.record a:hover {
+    text-decoration: underline;
+}
+
+.lost-record {
+    padding: 25px;
+    background: #e1dbcf;
+    border: 1px solid #b9ae9d;
+    text-align: center;
+}
+
+.lost-record h3 {
+    margin-top: 0;
+}
+
+.error {
+    text-align: center;
+    color: #7b3028;
+    font-style: italic;
+}
