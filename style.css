@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background: #f2eee5;
+    color: #292621;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+header {
+    background: #24211d;
+    color: #eee8dc;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 5px solid #8b7355;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 8px 0 0;
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.intro {
+    text-align: center;
+    border-bottom: 1px solid #aaa08f;
+    padding-bottom: 30px;
+}
+
+.intro h2 {
+    font-size: 30px;
+}
+
+.range {
+    font-style: italic;
+}
+
+.years {
+    margin-top: 40px;
+}
+
+.years h2 {
+    text-align: center;
+}
+
+.year-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.year-grid a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background: #e3dccd;
+    color: #292621;
+    text-decoration: none;
+    border: 1px solid #b6aa96;
+    font-size: 18px;
+}
+
+.year-grid a:hover {
+    background: #d5cbb9;
+}
+
+.archive-note {
+    margin-top: 45px;
+    padding: 20px;
+    background: #e7e0d3;
+    border-left: 4px solid #8b7355;
+}
+
+.article {
+    background: #f8f4eb;
+    padding: 55px;
+    border: 1px solid #c7bba7;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.article .date {
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.article h2 {
+    text-align: center;
+    font-size: 34px;
+    margin: 20px 0 35px;
+}
+
+.location {
+    font-weight: bold;
+}
+
+.article p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.article hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #aaa08f;
+}
+
+.archive-reference {
+    font-size: 14px;
+    color: #5e584f;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #24211d;
+    color: #cfc7b9;
+    margin-top: 70px;
+    font-size: 13px;
+}
